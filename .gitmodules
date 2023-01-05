@@ -1,0 +1,3 @@
+[submodule "solution"]
+	path = solution
+	url = git@github.com:yale-cpsc-223/solution-hello-jack.git
