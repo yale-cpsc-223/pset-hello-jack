@@ -41,7 +41,7 @@ For this assignment, there are some assumptions you may make about the compositi
 Submit this assignment to Gradescope by uploading a `.zip` archive containing (at least) the following files:
 * All C source and header files needed to compile and run your program
 * A `makefile` with a target called `Hello` that creates an executable named `Hello` which, when run, satisfies the requirements above. This file may be named either `makefile` or `Makefile`
-* `README.md`, which is a text file. It must conform to the format specified in section [Log File](#readme-file)
+* `README.md`, which is a text file. It must conform to the format specified in section [README File](#readme-file)
 
 ## README file
 
