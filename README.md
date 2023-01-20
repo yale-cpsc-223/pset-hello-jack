@@ -84,9 +84,9 @@ I was using the wrong one.
 
 Specifically, it must contain...
 * Your full name and netID, each on their own line in a section with header "`# Author`"
-* Your estimate of the time required (made prior to writing any code) in a section with header "`# Estimate of time`"
+* Your estimate of the time required (made prior to writing any code) in a section with header "`# Estimate of time to complete assignment`"
 
-* The total time you actually spent on the assignment, formatted as you see fit[^1], but must contain each "shift" during which you worked on the assignment and a brief description of the work completed in each shift, in a section with header "`# Actual time`"
+* The total time you actually spent on the assignment, formatted as you see fit[^1], but must contain each "shift" during which you worked on the assignment and a brief description of the work completed in each shift, in a section with header "`# Actual time to complete assignment`"
 
 * The names of all others (but not members of the teaching staff) with whom you discussed the assignment for more than 10 minutes, in a section with header "`# Collaboration`", and
 
