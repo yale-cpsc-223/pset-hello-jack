@@ -56,7 +56,6 @@ adw58
 10 hours
 
 # Actual time to complete assignment
-
 | Date | Time Started | Time Spent | Work completed |
 | :--: | -----------: | ---------: | :------------- |
 | 8/01 |      10:15pm |       0:45 | read assignment and played several games to help me understand the rules. |
@@ -68,12 +67,10 @@ adw58
 |      |              |       7:55 | total time spent |
 
 # Collaboration
-
 I discussed my solution with: Petey Salovey, Biddy Martin, and Biff Linnane
 (and watched four episodes of Futurama).
 
 # Discussion
-
 Debugging the graph construction was difficult because the size of the
 graph made it impossible to check by hand.  Using asserts helped
 tremendously, as did counting the incoming and outgoing edges for
