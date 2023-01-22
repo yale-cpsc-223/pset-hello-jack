@@ -3,8 +3,8 @@
 ## Due Date: 2023-01-27 11:59 PM NHT (New Haven Time)
 
 ## Purpose
-This assignment is designed to familiarize you with a C development environment, the Gradescope submission system.
-It is *not* designed to be an intellectual challenge not to be tedious.
+This assignment is designed to familiarize you with a C development environment and the Gradescope submission system.
+It is *not* designed to be an intellectual challenge nor to be tedious.
 
 ## Assignment
 Write a C program that greets the user with their name.
