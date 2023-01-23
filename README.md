@@ -1,6 +1,6 @@
 # Pset 0: "Hello, Jack!"
 
-## Due Date: 2023-01-27 11:59 PM NHT (New Haven Time)
+## Due Date: 2023-01-29 11:59 PM NHT (New Haven Time)
 
 ## Purpose
 This assignment is designed to familiarize you with a C development environment and the Gradescope submission system.
@@ -10,15 +10,16 @@ It is *not* designed to be an intellectual challenge nor to be tedious.
 Write a C program that greets the user with their name.
 It must do the following:
 * Check the command-line arguments. If there is more than one (1) argument, the second argument is interpreted as the user's name
-* If there is exactly one command-line argument, the program should prompt the user to enter their name by displaying the string, `"What is your name? "`. Thereafter the program must read input from `stdin` until a newline character and treat that input as the user's name (excluding the newline character).
+* If there is exactly one command-line argument, the program should prompt the user to enter their name by displaying the string, `"What is your name? "`. Thereafter the program must read a from input up to the next newline character and treat that string as the user's name (including inner whitespace).
 * Once the program has the user's name, it must print the string `"Hello, "` followed by the user's name and a newline character.
+* The program must then exit with an exit code of `0`, unless an error was encountered in which case the exit code must be non-zero
 
 ## Example Interaction
 Here is a sample interaction (lines beginning with `$` are command prompts):
 ```
 $ ./Hello
-What is your name? Alan
-Hello, Alan
+What is your name? Alan Weide
+Hello, Alan Weide
 $
 ```
 
@@ -35,7 +36,8 @@ In each assignment, there will be some assumptions you are permitted to make abo
 
 For this assignment, there are some assumptions you may make about the composition of the user's name.
 1. The user's name will not contain any newline characters within it
-2. The user's name will not be longer than 128 characters
+1. If the user enters their name via `stdin` (rather than as a command line argument), it will have no leading or trailing whitespace
+1. The user's name will not be longer than 128 characters
 
 ## Submission
 Submit this assignment to Gradescope by uploading a `.zip` archive containing (at least) the following files:
