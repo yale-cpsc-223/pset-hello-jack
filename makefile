@@ -1,6 +1,6 @@
 # C compiler and flags
 CC     = gcc
-CFLAGS = -std=c17 -Wall -pedantig -g
+CFLAGS = -std=c17 -Wall -pedantic -g
 
 # Targets
 
