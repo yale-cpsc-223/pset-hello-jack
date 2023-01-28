@@ -10,7 +10,7 @@ It is *not* designed to be an intellectual challenge nor to be tedious.
 Write a C program that greets the user with their name.
 It must do the following:
 * Check the command-line arguments. If there is more than one (1) argument, the second argument is interpreted as the user's name
-* If there is exactly one command-line argument, the program should prompt the user to enter their name by displaying the string, `"What is your name? "`. Thereafter the program must read a from input up to the next newline character and treat that string as the user's name (including inner whitespace).
+* If there is exactly one command-line argument, the program should prompt the user to enter their name by displaying the string, `"What is your name? "`. Thereafter the program must read from input up to the next newline character and treat that string as the user's name (including inner whitespace).
 * Once the program has the user's name, it must print the string `"Hello, "` followed by the user's name and a newline character.
 * The program must then exit with an exit code of `0`, unless an error was encountered in which case the exit code must be non-zero
 
@@ -40,10 +40,12 @@ For this assignment, there are some assumptions you may make about the compositi
 1. The user's name will not be longer than 128 characters
 
 ## Submission
-Submit this assignment to Gradescope by uploading a `.zip` archive containing (at least) the following files:
+Submit this assignment to Gradescope by uploading (at least) the following files:
 * All C source and header files needed to compile and run your program
 * A `makefile` with a target called `Hello` that creates an executable named `Hello` which, when run, satisfies the requirements above. This file may be named either `makefile` or `Makefile`
 * `LOG.md`, which is a text file. It must conform to the format specified in section [Log File](#log-file)
+
+You may zip these files together into an archive, but be careful to zip *the files themselves*, and **not** their enclosing folder.
 
 ## Log file
 
